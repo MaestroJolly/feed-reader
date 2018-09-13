@@ -1,6 +1,6 @@
 # Feed Reader Test Project
 
-Feed reader test project is a test driven RSS Feed project developed in HTML, CSS, JavaScript in which[Jasmine](http://jasmine.github.io/) test library was implemented as the test development environment.
+Feed reader test project is a test driven RSS Feed project developed in HTML, CSS, JavaScript in which [Jasmine](http://jasmine.github.io/) test library was implemented as the test development environment.
 
 ## Table of Contents
 

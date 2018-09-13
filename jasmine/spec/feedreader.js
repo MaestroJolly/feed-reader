@@ -36,6 +36,7 @@ $(function() {
             for (allFeed of allFeeds) {
                 expect(allFeed.url).toBeDefined();
                 expect(allFeed.url.length).not.toBe(0);
+                expect(allFeed.url).toMatch(/^http(s?)\:\/\//)
             }
         });
 

@@ -5,7 +5,7 @@ Feed reader test project is a test driven RSS Feed project developed in HTML, CS
 ## Table of Contents
 
 * [How To Run This Project](#HowToTheRunProject)
-* [How To Run Project Locally](#HowToRunProject Locally)
+* [How To Run Project Locally](#HowToRunProjectLocally)
 * [Link](#link)
 * [Reference](#reference)
 

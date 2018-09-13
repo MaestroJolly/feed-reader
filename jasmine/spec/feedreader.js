@@ -31,12 +31,12 @@ $(function() {
          * in the allFeeds object and ensures it has a URL defined
          * and that the URL is not empty.
          */
-
+        // To ensure that url is defined, not empty and loads with http(s)
         it('URL defined and not empty', function() {
             for (allFeed of allFeeds) {
                 expect(allFeed.url).toBeDefined();
                 expect(allFeed.url.length).not.toBe(0);
-                expect(allFeed.url).toMatch(/^(http|https):\/\//)
+                expect(allFeed.url).toMatch(/^(http|https):\/\//);
             }
         });
 

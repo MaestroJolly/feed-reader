@@ -120,9 +120,9 @@ $(function() {
     describe ('New Feed Selection', function() {
 
         // Variables for initial and updated feeds
-        
-        const initialFeed,
-            updatedFeed;
+
+        var initialFeed,
+                updatedFeed;
             
         beforeEach(function(done) {
             loadFeed(0, function() {
